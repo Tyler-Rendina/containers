@@ -1,6 +1,6 @@
 sudo apt-get remove docker docker-engine docker.io containerd runc
 sudo apt-get update -y
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 sudo apt-get install \
     ca-certificates \
     curl \
